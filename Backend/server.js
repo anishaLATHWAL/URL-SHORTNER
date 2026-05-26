@@ -1,10 +1,16 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
+import cors from "cors";
 dotenv.config(); 
 
 
 const app = express();
+
+app.use(cors({
+    origin : process.env.FRONTEND_URL,
+}));
+app.use(express.json());
 
 app.get("/",(req,res)=>{
     res.send("Hello World");
