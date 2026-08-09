@@ -78,15 +78,3 @@ VITE_BACKEND_URL=http://localhost:5000
 
 ## Contributing
 - Fork the repo, create a feature branch, then open a PR with a clear description.
-
-## License
-This repository is available for personal and educational use. Add your preferred license if publishing.
-
----
-
-If you'd like, I can also:
-- Add badges and screenshots to the README.
-- Add example curl requests and sample responses.
-- Tailor the README for a portfolio site or GitHub project page.
-
-
